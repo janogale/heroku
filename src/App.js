@@ -124,7 +124,7 @@ class App extends React.Component {
 
     </style>`);
     mywindow.document.write('</head><body >');
-    mywindow.document.write("<img src='logo.png' alt='IOM logo' width='100px'/>");
+    mywindow.document.write("<img src='heroku.png' alt='Meeting Updates' width='100px'/>");
     mywindow.document.write('<h1>' + document.title + '</h1>');
 
     let content = document.getElementById(elem);
@@ -163,7 +163,7 @@ class App extends React.Component {
     }
     return (
       <React.Fragment>
-        <Hero title="Weekly Program Updates and Plans" subTitle="IOM Hargeisa Sub Office" />
+        <Hero title="Weekly Program Updates and Plans" subTitle="Meeting Minutes Records." />
         <Home updatesData={updatesData} />
       </React.Fragment>
     )
