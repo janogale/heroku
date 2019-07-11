@@ -5,14 +5,14 @@ class Login extends Component {
 
   render() {
 
-    const departments = this.props.logins.map( login => {
+    const departments = this.props.logins.map(login => {
       return login.department
     })
 
     return (
       <section className="section" style={{ height: "80vh" }}>
-        <div style={{marginBottom: "3rem"}}>
-          <h1 className="has-text-primary is-size-2 has-text-centered">Meeting Hub - IOM</h1>
+        <div style={{ marginBottom: "3rem" }}>
+          <h1 className="has-text-primary is-size-2 has-text-centered">Meeting Hub - Recrod Keeping</h1>
         </div>
         <div className="columns is-vcentered" >
           <div className="column"></div>
